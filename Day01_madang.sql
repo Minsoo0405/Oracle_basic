@@ -1,0 +1,1 @@
+grant unlimited tablespace to madang;
