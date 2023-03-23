@@ -186,7 +186,7 @@ where custid not in (select custid from orders)
 select sum(saleprice) as 총액, avg(saleprice) as 평균
 from orders o
 
--- (10) 고객의 이름과 고객별 구매액 - 수정필요
+-- (10) 고객의 이름과 고객별 구매액
 select c.name, sum(o.saleprice) from orders o, customer c
 where o.custid = c.custid
 group by c.name
@@ -196,8 +196,15 @@ select name, bookname from orders o, customer c, book b
 where o.custid = c.custid and o.bookid = b.bookid
 order by name;
 
--- (12) 도서의 가격(book 테이블)과 판매가격(orders 테이블)의 차이가 가장 많은 주문 - 수정필요
-select max(price - saleprice) from book b, orders o
-where b.bookid = o.bookid
+-- (12) 도서의 가격(book 테이블)과 판매가격(orders 테이블)의 차이가 가장 많은 주문
+select * from book b, orders o
+where b.bookid = o.bookid and b.price - o.saleprice = (select max(price - saleprice)
+                                                        from book, orders
+                                                        where book.bookid = orders.bookid)
 
 -- (13) 도서의 판매액 평균보다 자신의 구매액 평균이 더 높은 고객의 이름 
+select name from customer c
+where c.custid in (select custid from orders
+                    group by custid
+                    having avg(saleprice) > (select avg(saleprice) from orders));
+
