@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BBA0E20F-46C5-F922-87CD-BF7315FF9100" name="출판사이름">
+<createdBy>kimminsoo</createdBy>
+<createdTime>2023-03-24 06:56:17 UTC</createdTime>
+<ownerDesignName>ㅇ</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="담당자이름" id="6CC8F051-AA20-3D82-8FB0-5EA8514C0428">
+<createdBy>kimminsoo</createdBy>
+<createdTime>2023-03-24 06:56:36 UTC</createdTime>
+<ownerDesignName>ㅇ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="전화번호" id="A02D18DD-9318-9F58-2627-E9911DC449EB">
+<createdBy>kimminsoo</createdBy>
+<createdTime>2023-03-24 06:56:36 UTC</createdTime>
+<ownerDesignName>ㅇ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

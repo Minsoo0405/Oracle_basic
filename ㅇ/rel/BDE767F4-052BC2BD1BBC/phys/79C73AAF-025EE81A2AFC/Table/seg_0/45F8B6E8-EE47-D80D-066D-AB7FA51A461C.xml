@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="고객번호" directorySegmentName="seg_0" id="45F8B6E8-EE47-D80D-066D-AB7FA51A461C">
+<createdBy>kimminsoo</createdBy>
+<createdTime>2023-03-24 06:55:29 UTC</createdTime>
+<ownerDesignName>ㅇ</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="고객이름" id="3C235788-D975-FEC7-0577-71F7BB0B903E">
+<createdBy>kimminsoo</createdBy>
+<createdTime>2023-03-24 06:55:40 UTC</createdTime>
+<ownerDesignName>ㅇ</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="주소" id="462C7237-4CF5-E0FD-FFBF-F23D977D550C">
+<createdBy>kimminsoo</createdBy>
+<createdTime>2023-03-24 06:55:52 UTC</createdTime>
+<ownerDesignName>ㅇ</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="전화번호" id="D21B9269-AB85-9B9D-9F0C-33276D0CA490">
+<createdBy>kimminsoo</createdBy>
+<createdTime>2023-03-24 06:55:52 UTC</createdTime>
+<ownerDesignName>ㅇ</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="고객번호_주문번호_FK" id="1E2F47C5-4734-0698-531A-7660B2106ED2">
+<createdBy>kimminsoo</createdBy>
+<createdTime>2023-03-24 07:39:18 UTC</createdTime>
+<ownerDesignName>ㅇ</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="고객번호_PK" id="0453EB18-BBD9-9EC9-B655-0ED8E9EB3916">
+<createdBy>kimminsoo</createdBy>
+<createdTime>2023-03-24 07:41:37 UTC</createdTime>
+<ownerDesignName>ㅇ</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

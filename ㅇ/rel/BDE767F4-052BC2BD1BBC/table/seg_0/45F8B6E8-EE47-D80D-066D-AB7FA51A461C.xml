@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="45F8B6E8-EE47-D80D-066D-AB7FA51A461C" name="고객번호">
+<createdBy>kimminsoo</createdBy>
+<createdTime>2023-03-24 06:55:29 UTC</createdTime>
+<ownerDesignName>ㅇ</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="고객이름" id="3C235788-D975-FEC7-0577-71F7BB0B903E">
+<createdBy>kimminsoo</createdBy>
+<createdTime>2023-03-24 06:55:40 UTC</createdTime>
+<ownerDesignName>ㅇ</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="223005A5-D67D-A594-9001-1C41B1A97DFE" referredColumn="4BC42010-9965-38CA-C612-49B31BCD1C14"/>
+</associations>
+</Column>
+<Column name="주소" id="462C7237-4CF5-E0FD-FFBF-F23D977D550C">
+<createdBy>kimminsoo</createdBy>
+<createdTime>2023-03-24 06:55:52 UTC</createdTime>
+<ownerDesignName>ㅇ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="전화번호" id="D21B9269-AB85-9B9D-9F0C-33276D0CA490">
+<createdBy>kimminsoo</createdBy>
+<createdTime>2023-03-24 06:55:52 UTC</createdTime>
+<ownerDesignName>ㅇ</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0453EB18-BBD9-9EC9-B655-0ED8E9EB3916" name="고객번호_PK">
+<createdBy>kimminsoo</createdBy>
+<createdTime>2023-03-24 07:41:37 UTC</createdTime>
+<ownerDesignName>ㅇ</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C235788-D975-FEC7-0577-71F7BB0B903E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E2F47C5-4734-0698-531A-7660B2106ED2" name="고객번호_주문번호_FK">
+<createdBy>kimminsoo</createdBy>
+<createdTime>2023-03-24 07:39:18 UTC</createdTime>
+<ownerDesignName>ㅇ</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C235788-D975-FEC7-0577-71F7BB0B903E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

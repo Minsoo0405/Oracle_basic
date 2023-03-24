@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="출판사이름" directorySegmentName="seg_0" id="BBA0E20F-46C5-F922-87CD-BF7315FF9100">
+<createdBy>kimminsoo</createdBy>
+<createdTime>2023-03-24 06:56:17 UTC</createdTime>
+<ownerDesignName>ㅇ</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="담당자이름" id="6CC8F051-AA20-3D82-8FB0-5EA8514C0428">
+<createdBy>kimminsoo</createdBy>
+<createdTime>2023-03-24 06:56:36 UTC</createdTime>
+<ownerDesignName>ㅇ</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="전화번호" id="A02D18DD-9318-9F58-2627-E9911DC449EB">
+<createdBy>kimminsoo</createdBy>
+<createdTime>2023-03-24 06:56:36 UTC</createdTime>
+<ownerDesignName>ㅇ</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev12c>

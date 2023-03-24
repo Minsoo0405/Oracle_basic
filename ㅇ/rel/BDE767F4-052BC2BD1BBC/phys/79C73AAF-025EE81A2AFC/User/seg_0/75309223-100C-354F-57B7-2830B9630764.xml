@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="MADANG" directorySegmentName="seg_0" id="75309223-100C-354F-57B7-2830B9630764">
+<sourceConnName>madang</sourceConnName>
+<sourceObjName>MADANG</sourceObjName>
+<createdBy>kimminsoo</createdBy>
+<createdTime>2023-03-24 06:42:17 UTC</createdTime>
+<ownerDesignName>ㅇ</ownerDesignName>
+<schemaObject>6B59E629-BFBE-E2B0-1CC4-E137C6D07596</schemaObject>
+<defTableSpace>4A0EFE4A-D895-B0F2-809E-101426A85C4A</defTableSpace>
+<privileges>CREATE VIEW, UNLIMITED TABLESPACE</privileges>
+</UserOraclev10g>
